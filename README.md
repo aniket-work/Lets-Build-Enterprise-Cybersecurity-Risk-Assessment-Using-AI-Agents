@@ -16,15 +16,17 @@ Full Article : [https://medium.com/@learn-simplified/Lets-Build-Enterprise-Cyber
 
 ## Tech Stack
 
-| **Component**        | **Technology**              |
-|----------------------|-----------------------------|
-| **Frontend**          | Streamlit                   |
-| **AI Framework**      | CrewAI, OpenAI               |
-| **Data Processing**   | Pandas, NumPy                |
-| **Data Storage**      | CSV (via Pandas)             |
-| **Visualization**     | Plotly                      |
-| **Environment**       | Python-dotenv                |
-| **Additional Tools**  | DuckDuckGo Search, Requests  |
+| **Category**   | **Technology**                | **Purpose**                          |
+|----------------|-------------------------------|--------------------------------------|
+| Framework      | Streamlit                     | Web interface and UI components      |
+| AI             | AutoGen                       | Multi-agent conversation framework   |
+| AI             | OpenAI GPT-4                  | Large language model for agents      |
+| Configuration  | YAML                          | Agent and application configuration  |
+| Configuration  | JSON                          | LLM settings and feature flags       |
+| Environment    | python-dotenv                | Environment variable management      |
+| Utilities      | asyncio                       | Asynchronous processing              |
+| Reporting      | Markdown                      | Report generation format              |
+| Logging        | Python logging                | Application logging                  |
 
 
 
@@ -36,7 +38,7 @@ AI is transforming business operations, particularly in sales. This implementati
 ![Design Diagram](design_docs/design.png)
 
 
-# Tutorial: My Building of Sales Pipeline Management workflow using AI Agent
+# Tutorial: Let's Build Enterprise Cybersecurity Risk Assessment Using AI Agents
 
 ## Prerequisites
 - Python installed on your system.
@@ -54,7 +56,7 @@ AI is transforming business operations, particularly in sales. This implementati
    
      - Windows:
        ```bash
-                  
+          Lets-Build-Enterprise-Cybersecurity-Risk-Assessment-Using-AI-Agents\Scripts\activate        
        ```
      - Unix/macOS:
        ```bash
@@ -66,7 +68,7 @@ AI is transforming business operations, particularly in sales. This implementati
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  "My Building of Sales Pipeline Management workflow using AI Agent"
+Follow these steps to set up and run the  "Let's Build Enterprise Cybersecurity Risk Assessment Using AI Agents"
 
 1. Navigate to your project directory:
    ```
@@ -81,11 +83,11 @@ Follow these steps to set up and run the  "My Building of Sales Pipeline Managem
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-Run - Hands-On Guide: Let's Build Invoice Processing Using AI Agents
+Run - Hands-On Guide: Let's Build Enterprise Cybersecurity Risk Assessment Using AI Agents
 
   
    ```
-   streamlit run streamlit_app.py
+   streamlit run app.py
    ```
    
 
