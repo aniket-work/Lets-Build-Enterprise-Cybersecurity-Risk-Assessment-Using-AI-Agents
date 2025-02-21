@@ -1,0 +1,35 @@
+{
+  "llm": {
+    "config_list": [
+      {
+        "model": "gpt-4",
+        "api_key": "${OPENAI_API_KEY}"
+      }
+    ],
+    "fallback_models": [
+      {
+        "model": "gpt-3.5-turbo",
+        "api_key": "${OPENAI_API_KEY}"
+      }
+    ]
+  },
+  "app": {
+    "debug": false,
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "timeout_seconds": 120
+  },
+  "logging": {
+    "level": "INFO",
+    "log_to_file": true,
+    "log_file": "cybersec_council.log",
+    "rotate_logs": true,
+    "max_log_size_mb": 10
+  },
+  "features": {
+    "enable_report_export": true,
+    "enable_chat_history": true,
+    "allow_anonymous_usage_stats": false,
+    "max_file_upload_size_mb": 5
+  }
+}

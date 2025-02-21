@@ -1,0 +1,7 @@
+streamlit
+pandas
+matplotlib
+python-dotenv
+autogen
+autogen-agentchat
+autogen-ext[openai]

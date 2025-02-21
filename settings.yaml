@@ -1,0 +1,28 @@
+# Application Settings
+
+# Business units that can be analyzed
+business_units:
+  - "Financial Systems"
+  - "Healthcare"
+  - "Industrial IoT"
+  - "Government Infrastructure"
+  - "E-commerce"
+  - "Cloud Services"
+
+# UI Configuration
+ui:
+  page_title: "CyberSec AI Council"
+  page_icon: "🛡️"
+  layout: "wide"
+  initial_sidebar_state: "expanded"
+  theme:
+    primary_color: "#1E88E5"
+    background_color: "#0a1929"
+    text_color: "#FFFFFF"
+
+# Analysis Configuration
+analysis:
+  max_rounds: 12
+  speaker_selection: "round_robin"
+  model_name: "gpt-4"
+  temperature: 0.7
