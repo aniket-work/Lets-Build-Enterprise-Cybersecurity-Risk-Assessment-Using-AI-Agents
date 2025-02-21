@@ -1,17 +1,23 @@
 # Let's Build Enterprise Cybersecurity Risk Assessment Using AI Agents 
 
-Sales Workflow with AI-Powered Agents
+Collaborative AI: How Multiple Agents Create Better Security Assessments
 
 ## TL;DR
-Built a comprehensive sales pipeline management system using AI agents to qualify leads, develop strategies, and create closing plans. The system uses Streamlit for the interface, CrewAI for agent orchestration, and maintains a historical database of all analyses.
+I built an app that uses multiple AI agents (Security Architect, Risk Analyst, and Compliance Officer) to automatically review security proposals from different perspectives. The agents discuss the proposal together and generate a comprehensive security report. The code shows how to orchestrate multiple agents, manage their conversation, and present their findings through a clean web interface.
 
 ## Introduction:
-I developed this AI-powered sales pipeline management system to show how businesses handle their sales processes. The system combines multiple specialized AI agents to analyze leads, develop strategies, and create closing plans — all while maintaining a structured, data-driven approach.
+Ever been stuck waiting for the security team to review your project? Or maybe you’re on that security team, drowning in review requests? I built a system that uses AI agents to speed up cybersecurity risk assessments. The agents work together like a real security team — each with their own expertise and perspective — to provide comprehensive reviews in minutes instead of days.
 
 ## What’s This Article About?
-This article explores the implementation of an AI-based sales pipeline management system. It demonstrates how multiple AI agents can work together to analyze sales leads, each specializing in different aspects of the sales process — from initial qualification to closing strategies. The system provides structured, consistent analysis while maintaining a historical record of all leads and decisions.
+This article walks through building an AI-powered security review system. I’ve created a Streamlit application where users can submit security proposals for analysis. Behind the scenes, a team of specialized AI agents works together to assess the proposal:
 
-Full Article : [https://medium.com/@learn-simplified/Lets-Build-Enterprise-Cybersecurity-Risk-Assessment-Using-AI-Agents-d7a3df09686b
+ - A Security Architect examines technical vulnerabilities and suggests controls
+ - A Risk Analyst evaluates business impacts and quantifies potential losses
+ - A Compliance Officer checks for regulatory adherence to standards like GDPR and HIPAA
+
+These agents have a structured conversation, challenge each other’s perspectives, and ultimately produce a comprehensive security recommendation. The application then formats this into a downloadable report that summarizes their findings.
+
+Full Article : [https://medium.com/@learn-simplified/lets-build-enterprise-cybersecurity-risk-assessment-using-ai-agents-6fd2e8be9056
 
 
 ## Tech Stack
@@ -31,7 +37,14 @@ Full Article : [https://medium.com/@learn-simplified/Lets-Build-Enterprise-Cyber
 
 
 ## Why Read It?
-AI is transforming business operations, particularly in sales. This implementation shows how companies can leverage AI to standardize their sales processes, make data-driven decisions, and scale their operations effectively. The system demonstrates practical application of AI in sales, from lead qualification to closing strategies.
+AI is transforming how businesses handle cybersecurity. According to Gartner, by 2026, organizations using AI in security will respond to incidents 80% faster than those that don’t. This article shows how even fictional companies like our “Enterprise Cyber AI Council” can implement AI agents to:
+
+ - Scale security expertise across the organization
+ - Standardize risk assessment processes
+ - Dramatically reduce review turnaround times
+ - Ensure consistent consideration of technical, business, and compliance perspectives
+
+The approach demonstrated here can be adapted to your own organization’s security frameworks and risk appetite. By building this system, you’ll learn practical techniques for orchestrating AI agents that can be applied to many business processes beyond security.
 
 ## Architecture
 
